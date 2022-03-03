@@ -14,10 +14,10 @@ top -n 1 | head -n 3 | tail -n 1 >> pc.txt
 echo "<h3>Estado de CPU</h3>" >> pc.txt
 top -n 1 | head -n 3 | tail -n 1 >> pc.txt
 
-#Encabezado para ver
-echo "<h3>Estado de CPU</h3>" >> pc.txt
-top -n 1 | head -n 3 | tail -n 1 >> pc.txt
-echo "<h3>Estado de CPU</h3>" >> pc.txt
+#Encabezado para ver la RAM
+echo "<h3>Estado de RAM</h3>" >> pc.txt
+free -mh >> pc.txt
+echo "<h3>Estado de </h3>" >> pc.txt
 top -n 1 | head -n 3 | tail -n 1 >> pc.txt
 echo "<h3>Estado de CPU</h3>" >> pc.txt
 top -n 1 | head -n 3 | tail -n 1 >> pc.txt
